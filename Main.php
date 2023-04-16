@@ -4,6 +4,7 @@
 <?php
 /*
 if you want to inspect the members of a discord server change the guild_id with another one
+at line 34;
 */    
 ?>
     
