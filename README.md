@@ -33,7 +33,7 @@ You can customize the layout and design of the dashboard by modifying the dashbo
 - You can also add additional functionality by modifying the application code and integrating with other APIs.
 
 ## Support
-If you have any questions or issues with the application, please contact the developer at developer@example.com.
+If you have any questions or issues with the application, please contact the developer at https://github.com/SikroxMemer.
 
 ### License
 This application is licensed under the MIT License. See the LICENSE file for more information.
