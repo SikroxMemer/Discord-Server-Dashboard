@@ -9,10 +9,8 @@ Customizable dashboard layout and design.
 
 ## Requirements
 - A Discord account and server with API access.
-- A web server with PHP and MySQL support.
 - Check IF A Discord server supports Server Widgets.
-- You Must have Php installed in your pc , because the page only work in
-a localhost server.
+- You Must have Php installed in your pc , because the page only work in a localhost server.
 
 ## Installation
 - Clone or download the application from the GitHub repository.
