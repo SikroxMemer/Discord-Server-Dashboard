@@ -22,6 +22,7 @@ The page should display the online members of the specified server and their sta
 Customization
 You can customize the appearance and functionality of the Discord Server Dashboard application by modifying the CSS and JavaScript files included in the Scripts and CSS directories.
 
+
 ## Credits
 
 This application uses the following libraries and resources:
