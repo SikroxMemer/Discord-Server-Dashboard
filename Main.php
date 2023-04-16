@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+/*
+if you want to inspect the members of a discord server change the guild_id with another one
+at line 34;
+*/    
+?>
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +32,7 @@
     </nav>
     <main>
         <?php
-        $widget_url = "https://discord.com/api/guilds/1031300982488977428/widget.json";
+        $widget_url = "https://discord.com/api/guilds/YOUR_GUILD_ID/widget.json";
         $widget_json = file_get_contents($widget_url);
         $widget_data = json_decode($widget_json, true);
         $member_count = $widget_data["presence_count"];
