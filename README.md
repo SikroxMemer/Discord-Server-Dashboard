@@ -1,39 +1,35 @@
-# Discord API Information Dashboard
-This application is designed to provide an easy-to-use information dashboard that utilizes the Discord API. With this dashboard, users can quickly access and view a variety of information from their Discord server, including server statistics, user activity, and more.
+# Discord Server Dashboard Application
 
-## Features
-- Server statistics, including member count, activity levels, and more.
-- User activity tracking, including messages sent, voice channel activity, and more.
-Real-time updates and notifications for new messages, voice activity, and other events.
-Customizable dashboard layout and design.
+This is a simple PHP script that generates an HTML page for a Discord Server Dashboard application. The application displays the online members of a specified server and their status.
 
 ## Requirements
-- A Discord account and server with API access.
-- A web server with PHP and MySQL support.
-- Check IF A Discord server supports Server Widgets.
-- You Must have Php installed in your pc , because the page only work in
-a localhost server.
+
+- PHP 5.6 or later
+- A web server that supports PHP
 
 ## Installation
-- Clone or download the application from the GitHub repository.
-- Set up a MySQL database to store user and server information.
-- Configure the application settings in the config.php file.
-- Upload the application files to your web server.
-- Navigate to the application URL to access the dashboard.
 
+1. Clone or download the repository to your local machine.
+1. Upload the files to your web server.
+1. Open the index.php file in a text editor.
+1. Replace the server ID in the $widget_url variable with the ID of your server's widget URL. You can find your server's widget URL by going to Server 1.1. Settings > Widget in your Discord server and copying the URL.
+1. Save the index.php file.
 
-### Usage
-- Once installed, the application can be used to view a variety of information from your Discord server. 
-- The dashboard includes several panels that provide different types of information:
+## Usage
 
-- Server Statistics: This panel displays the current member count, activity levels, and other server statistics.
-User Activity: This panel displays the activity levels of individual users, including messages sent, voice channel activity, and more.
-- Notifications: This panel displays real-time updates and notifications for new messages, voice activity, and other events.
-You can customize the layout and design of the dashboard by modifying the dashboard.php file.
-- You can also add additional functionality by modifying the application code and integrating with other APIs.
+Open the URL of the index.php file in a web browser.
+The page should display the online members of the specified server and their status. You can refresh the page to update the member status.
+Customization
+You can customize the appearance and functionality of the Discord Server Dashboard application by modifying the CSS and JavaScript files included in the Scripts and CSS directories.
 
-## Support
-If you have any questions or issues with the application, please contact the developer at developer@example.com.
+## Credits
 
-### License
-This application is licensed under the MIT License. See the LICENSE file for more information.
+This application uses the following libraries and resources:
+
+- Bootstrap CSS
+- jQuery
+- Discord API
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
